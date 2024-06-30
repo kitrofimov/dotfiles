@@ -1,0 +1,22 @@
+import:
+  - gruvbox-dark.yml
+
+env:
+  TERM: "xterm-256color"
+
+window:
+  decorations: "Full"
+  opacity: 1
+  # blur: true  # works only on KDE Plasma / MacOS
+  resize_increments: true
+
+font:
+  # normal: { family: "UbuntuSansMono Nerd Font Propo", style: "Regular" }
+  # bold: { style: "Bold" }
+  # italic: { style: "Italic" }
+  # bold_italic: { style: "Bold Italic" }
+  size: 12
+
+cursor:
+  shape: "Beam"
+

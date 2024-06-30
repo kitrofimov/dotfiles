@@ -165,7 +165,7 @@ bindsym $mod+F4 exec --no-startup-id pactl set-source-mute @DEFAULT_SOURCE@ togg
 client.focused          #ffffff #999999 #ffffff #aa0000   #ffffff
 client.focused_inactive #aaaaaa #666666 #cccccc #666666   #aaaaaa
 client.unfocused        #333333 #444444 #999999 #666666   #333333
-client.urgent           #900000 #700000 #ffffff #900000   #900000
+client.urgent           #dd0000 #900000 #ffffff #dd0000   #dd0000
 client.placeholder      #000000 #999999 #ffffff #000000   #666666
 client.background       #ffffff
 

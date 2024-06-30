@@ -2,7 +2,7 @@
 
 My dotfiles for `i3wm`, `bash`, `rofi`, `polybar`, `nvim` and more. See https://wiki.archlinux.org/title/Dotfiles for details of how this repository is organized.
 
-![screenshot](/home/kirill/Screenshots/2025-06-30_19-00.png)
+![screenshot](screenshot.png)
 
 Usage:
 ```bash

@@ -130,8 +130,9 @@ bindsym $mod+Return exec alacritty
 bindsym $mod+d exec rofi -show drun
 bindsym $mod+t exec rofi -show window
 bindsym $mod+Shift+e exec ~/.local/bin/powermenu.sh
-bindsym $mod+Delete exec flameshot gui
-bindsym $mod+Shift+Delete exec flameshot screen
+bindsym $mod+F12 exec flameshot gui
+bindsym $mod+Control+F12 exec ~/.local/bin/flameshot_active_window.sh
+bindsym $mod+Shift+F12 exec flameshot screen
 
 # Start XDG autostart .desktop files using dex. See also
 # https://wiki.archlinux.org/index.php/XDG_Autostart

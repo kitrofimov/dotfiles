@@ -148,6 +148,9 @@ exec --no-startup-id nitrogen --restore
 # window compositor (fix tearing)
 exec --no-startup-id picom -b --backend glx --vsync
 
+# blue light filter
+exec --no-startup-id redshift -l 52.93:70.183
+
 # start a `polybar` bar
 # pkill to avoid bugged systray
 exec_always --no-startup-id pkill polybar; polybar -r

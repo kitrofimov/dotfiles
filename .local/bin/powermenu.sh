@@ -6,7 +6,7 @@ case "$CHOSEN" in
 	"Suspend") systemctl suspend ;;
 	"Reboot") reboot ;;
 	"Shutdown") systemctl poweroff ;;
-	"Log Out") hyprctl dispatch exit ;;
+	"Log Out") i3-msg exit ;;
 	*) exit 1 ;;
 esac
 

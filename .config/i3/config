@@ -156,7 +156,7 @@ exec --no-startup-id redshift -l 52.93:70.183
 exec_always --no-startup-id pkill polybar; polybar -r
 
 # set keyboard layout and toggle keybinding
-exec_always setxkbmap -layout us,ru,de -option grp:win_space_toggle
+exec_always setxkbmap -layout us,ru -option grp:win_space_toggle
 
 # Use pactl to adjust volume in PulseAudio.
 set $refresh_i3status killall -SIGUSR1 i3status

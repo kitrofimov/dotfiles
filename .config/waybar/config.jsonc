@@ -1,0 +1,52 @@
+{
+    "layer": "top",
+    "position": "top",
+    "modules-left": ["hyprland/workspaces"],
+    "modules-center": ["clock", "clock#time"],
+    "modules-right": ["tray", "hyprland/language", "pulseaudio", "network", "bluetooth", "battery"],
+    "hyprland/language": {
+        "format-en": "EN",
+	"format-ru": "RU"
+    },
+    "clock": {
+        "format": "{:%a, %d %b %Y}",
+	"tooltip": false
+    },
+    "clock#time": {
+        "format": "{:%H:%M}",
+	"tooltip": false
+    },
+    "pulseaudio": {
+        "format": "{volume}% {icon} {format_source}",
+	"format-muted": "{volume}%  {format_source}",
+	"format-icons": [ "", "", "" ],
+	"format-source": "󰍬",
+	"format-source-muted": "󰍭",
+        "on-click": "pavucontrol",
+	"tooltip": false
+    },
+    "network": {
+        "format-wifi": "",
+	"format-ethernet": "󰌘",
+	"format-linked": "󰌘",
+	"format-disconnected": "󰌙",
+	"tooltip": false,
+	"on-click": "$TERM -e nmtui"
+    },
+    "bluetooth": {
+	"format": "󰂯",
+	"format-disabled": "󰂲",
+	"format-off": "󰂲",
+	"format-on": "󰂯",
+	"format-connected": "󰂱",
+        "tooltip": false,
+	"on-click": "blueman-manager"
+    },
+    "battery": {
+        "format": "{capacity}% {icon}",
+        "format-charging": "{capacity}% ",
+        "format-icons": [ "", "", "", "", "" ],
+        "format-alt": "{time}",
+        "tooltip": false
+    }
+}

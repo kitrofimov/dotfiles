@@ -1,0 +1,7 @@
+* {
+    background:     {{background | lighten(0.1)}};
+    background-alt: {{background}};
+    foreground:     {{foreground}};
+    selected:       {{color7}};
+}
+

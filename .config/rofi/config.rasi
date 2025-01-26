@@ -1,0 +1,6 @@
+configuration {
+    modes: "window,drun";
+    show-icons: true;
+}
+
+@theme "main.rasi"

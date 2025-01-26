@@ -1,0 +1,37 @@
+@import url("colors.css");
+
+* {
+    border: none;
+    font-family: "SF Pro", "DejaVuSansM Nerd Font Propo";
+    font-weight: bold;
+    font-size: 12px;
+}
+
+window#waybar {
+    background: @background;
+    color: @foreground;
+}
+
+#clock, #clock.time {
+    padding: 0 4px;
+}
+
+#tray, #language, #pulseaudio, #network, #bluetooth, #battery {
+    padding: 0 6px;
+}
+
+#workspaces button {
+    padding: 0 2px;
+    color: @inactive;
+}
+
+#workspaces button:hover {
+    background: @background;
+    color: @foreground;
+    box-shadow: none;
+}
+
+#workspaces button.active {
+    color: @foreground;
+}
+

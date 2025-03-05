@@ -48,5 +48,8 @@
         "format-icons": [ "", "", "", "", "" ],
         "format-alt": "{time}",
         "tooltip": false
+    },
+    "tray": {
+        "spacing": 5
     }
 }

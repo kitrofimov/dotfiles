@@ -18,6 +18,8 @@
 - **Policy kit**: `polkit-gnome`
 - **Clipboard history**: `cliphist`
 
+See full package lists (essential, optional) in [`.github`](.github) directory.
+
 # Installation
 Set up an alias and clone the repo (assuming you use `bash`):
 ```bash
@@ -29,7 +31,7 @@ dotfiles checkout
 dotfiles config --local status.showUntrackedFiles no
 ```
 
-Install essential packages; you may also install optional packages the same way ([packages-optional.txt](packages-optional.txt) and [packages-optional-aur.txt](packages-optional-aur.txt)).
+Install essential packages; you may also install optional packages the same way ([`packages-optional.txt`](packages-optional.txt) and [`packages-optional-aur.txt`](packages-optional-aur.txt)).
 ```bash
 sudo pacman -S --needed - < ~/.github/packages-essential.txt
 yay -S --needed - < ~/.github/packages-essential-aur.txt

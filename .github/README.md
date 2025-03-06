@@ -35,4 +35,4 @@ sudo pacman -S --needed - < ~/.github/packages-essential.txt
 yay -S --needed - < ~/.github/packages-essential-aur.txt
 ```
 
-Done! Launch your [display manager](https://wiki.archlinux.org/title/Display_manager) and enter Hyprland session, or just type `Hyprland` in a TTY.
+Launch a Hyprland session, set a wallpaper using `Win + Shift + W` keybind and reboot. Enjoy!

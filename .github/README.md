@@ -21,7 +21,7 @@
 See full package lists (essential, optional) in [`.github`](.github) directory.
 
 # Installation
-Set up an alias and clone the repo (assuming you use `bash`):
+Clone and checkout the repo:
 ```bash
 echo ".dotfiles" >> .gitignore
 git clone --bare https://www.github.com/kitrofimov/dotfiles.git $HOME/.dotfiles

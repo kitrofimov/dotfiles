@@ -3,12 +3,15 @@ brightnessctl
 firefox
 fzf
 github-cli
+gnome-disk-utility
 gparted
+gvfs
 htop
 keepassxc
 less
 libreoffice-fresh
 ly
+man
 mtpfs
 neofetch
 neovim
@@ -16,6 +19,7 @@ noto-fonts
 noto-fonts-cjk
 noto-fonts-emoji
 noto-fonts-extra
+ntfs-3g
 obsidian
 obs-studio
 reflector
@@ -23,7 +27,9 @@ steam
 syncthing
 telegram-desktop
 texlive
+thunderbird
 timeshift
+tmux
 ttc-iosevka
 ttf-dejavu
 ttf-dejavu-nerd

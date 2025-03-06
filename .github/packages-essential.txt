@@ -8,6 +8,10 @@ imv
 mako
 nwg-look
 pavucontrol
+pipewire
+pipewire-alsa
+pipewire-audio
+pipewire-pulse
 polkit-gnome
 rofi-wayland
 satty
@@ -15,4 +19,6 @@ slurp
 swww
 thunar
 waybar
+wireplumber
 wlsunset
+xdg-desktop-portal-hyprland

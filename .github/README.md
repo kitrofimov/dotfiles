@@ -29,7 +29,7 @@ git --git-dir=~/.dotfiles --work-tree=~ checkout
 dotfiles config --local status.showUntrackedFiles no
 ```
 
-Install essential packages; you may also install optional packages the same way ([`packages-optional.txt`](packages-optional.txt) and [`packages-optional-aur.txt`](packages-optional-aur.txt)).
+Install essential packages; you may also install optional packages the same way ([`packages-optional.txt`](packages-optional.txt) and [`packages-optional-aur.txt`](packages-optional-aur.txt)). Some "optional" packages require enabling `multilib` repository (e.g. `steam`). [`packages-personal.txt`](packages-personal.txt) contains packages specific for *my* machine (AMD CPU + AMD GPU), so do not pay close attention to this file.
 ```bash
 sudo pacman -S --needed - < ~/.github/packages-essential.txt
 yay -S --needed - < ~/.github/packages-essential-aur.txt

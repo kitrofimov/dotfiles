@@ -1,0 +1,5 @@
+amd-ucode
+mesa
+lib32-mesa
+vulkan-radeon
+lib32-radeon

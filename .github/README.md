@@ -23,11 +23,9 @@ See full package lists (essential, optional) in [`.github`](.github) directory.
 # Installation
 Set up an alias and clone the repo (assuming you use `bash`):
 ```bash
-echo 'alias dotfiles="/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME"' >> $HOME/.bashrc
-source ~/.bashrc
 echo ".dotfiles" >> .gitignore
 git clone --bare https://www.github.com/kitrofimov/dotfiles.git $HOME/.dotfiles
-dotfiles checkout
+git --git-dir=~/.dotfiles --work-tree=~ checkout
 dotfiles config --local status.showUntrackedFiles no
 ```
 

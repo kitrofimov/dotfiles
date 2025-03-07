@@ -30,6 +30,7 @@ texlive
 thunderbird
 timeshift
 tmux
+tree
 ttc-iosevka
 ttf-dejavu
 ttf-dejavu-nerd

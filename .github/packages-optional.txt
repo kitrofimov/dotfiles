@@ -22,11 +22,14 @@ noto-fonts-extra
 ntfs-3g
 obsidian
 obs-studio
+python-pip
 reflector
+ripgrep
 steam
 syncthing
 telegram-desktop
 texlive
+thunderbird
 thunderbird
 timeshift
 tmux

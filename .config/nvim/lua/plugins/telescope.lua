@@ -46,12 +46,7 @@ return {
     vim.keymap.set("n", "<leader>gc", builtin.git_commits, { desc = "Search Git commits" })
     vim.keymap.set("n", "<leader>gb", builtin.git_bcommits, { desc = "Search Git commits for buffer" })
 
-    vim.keymap.set('n', '<leader>/', function()
-      builtin.current_buffer_fuzzy_find(require('telescope.themes').get_dropdown {
-        winblend = 10,
-        previewer = false,
-      })
-    end, { desc = '[/] Fuzzily search in current buffer' })
+    vim.keymap.set('n', '<leader>/', builtin.current_buffer_fuzzy_find, { desc = '[/] Fuzzily search in current buffer' })
 
     vim.keymap.set('n', '<leader>s/', function()
       builtin.live_grep {

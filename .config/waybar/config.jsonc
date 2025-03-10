@@ -3,7 +3,7 @@
     "position": "top",
     "modules-left": ["hyprland/workspaces"],
     "modules-center": ["clock", "clock#time"],
-    "modules-right": ["tray", "hyprland/language", "pulseaudio", "network", "bluetooth", "battery"],
+    "modules-right": ["tray", "hyprland/language", "pulseaudio", "battery"],
     "hyprland/language": {
         "format-en": "EN",
 	"format-ru": "RU"
@@ -17,30 +17,11 @@
 	"tooltip": false
     },
     "pulseaudio": {
-        "format": "{volume}% {icon} {format_source}",
-	"format-muted": "{volume}%  {format_source}",
+        "format": "{volume}% {icon}",
+	"format-muted": "{volume}% ",
 	"format-icons": [ "", "", "" ],
-	"format-source": "󰍬",
-	"format-source-muted": "󰍭",
         "on-click": "pavucontrol",
 	"tooltip": false
-    },
-    "network": {
-        "format-wifi": "",
-	"format-ethernet": "󰌘",
-	"format-linked": "󰌘",
-	"format-disconnected": "󰌙",
-	"tooltip": false,
-	"on-click": "$TERM -e nmtui"
-    },
-    "bluetooth": {
-	"format": "󰂯",
-	"format-disabled": "󰂲",
-	"format-off": "󰂲",
-	"format-on": "󰂯",
-	"format-connected": "󰂱",
-        "tooltip": false,
-	"on-click": "blueman-manager"
     },
     "battery": {
         "format": "{capacity}% {icon}",

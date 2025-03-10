@@ -21,6 +21,7 @@ man-toc() {
 # See https://harfangk.github.io/2016/09/18/manage-dotfiles-with-a-git-bare-repository.html
 alias dotfiles="/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME"
 
-PS1='[\u@\h \W]\$ '
+export PS1="\[\e[38;5;245m\]\u\[\e[38;5;247m\]@\[\e[38;5;249m\]\h \[\e[38;5;254m\]\W \[\033[0m\]$ "
 
 export EDITOR=nvim
+

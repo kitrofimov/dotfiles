@@ -3,6 +3,7 @@ brightnessctl
 firefox
 fzf
 github-cli
+gimp
 gnome-disk-utility
 gparted
 gvfs

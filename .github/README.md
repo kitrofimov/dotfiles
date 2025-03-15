@@ -36,3 +36,18 @@ yay -S --needed - < ~/.github/packages-essential-aur.txt
 ```
 
 Launch a Hyprland session, set a wallpaper using `Win + Shift + W` keybind and reboot. Enjoy!
+
+# Fix time drift when dualbooting Windows
+See [this forum post](https://bbs.archlinux.org/viewtopic.php?id=274660).
+
+Linux:
+```
+timedatectl set-ntp true
+timedatectl --adjust-system-clock
+```
+
+Windows (Administrator Command Prompt):
+```
+reg add "HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\TimeZoneInformation" /v RealTimeIsUniversal /d 1 /t REG_DWORD /f
+```
+

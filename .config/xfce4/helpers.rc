@@ -1,0 +1,3 @@
+# https://askubuntu.com/questions/891680/xubuntu-thunar-open-terminal-here-opens-konsole-in-homefolder
+TerminalEmulator=alacritty
+TerminalEmulatorDismissed=true

@@ -35,3 +35,7 @@ window#waybar {
     color: @foreground;
 }
 
+#workspaces button.urgent {
+    color: @urgent;
+}
+

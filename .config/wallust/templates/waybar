@@ -21,3 +21,4 @@
 @define-color color15    {{color15}};
 
 @define-color inactive   {{background | blend(foreground)}};
+@define-color urgent     {{foreground | blend("#FF0000")}};

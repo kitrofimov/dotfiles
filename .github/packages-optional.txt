@@ -2,8 +2,8 @@ blueman
 brightnessctl
 firefox
 fzf
-github-cli
 gimp
+github-cli
 gnome-disk-utility
 gparted
 gvfs
@@ -26,6 +26,7 @@ obs-studio
 python-pip
 reflector
 ripgrep
+smartmontools
 steam
 syncthing
 telegram-desktop
@@ -43,3 +44,5 @@ ttf-liberation
 ttf-roboto
 vim
 vlc
+zathura
+zathura-pdf-mupdf

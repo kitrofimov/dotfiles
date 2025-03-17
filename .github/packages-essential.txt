@@ -1,5 +1,6 @@
 alacritty
 cliphist
+ffmpegthumbnailer
 grim
 hyprland
 hyprpicker
@@ -18,6 +19,7 @@ satty
 slurp
 swww
 thunar
+tumbler
 waybar
 wireplumber
 wlsunset

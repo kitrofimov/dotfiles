@@ -8,6 +8,7 @@ gnome-disk-utility
 gparted
 gvfs
 htop
+imagemagick
 keepassxc
 less
 libreoffice-fresh

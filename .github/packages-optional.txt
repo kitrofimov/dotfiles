@@ -1,4 +1,5 @@
 blueman
+file-roller
 brightnessctl
 firefox
 fzf

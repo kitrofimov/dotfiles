@@ -1,12 +1,14 @@
 {
     "layer": "top",
     "position": "top",
-    "modules-left": ["hyprland/workspaces"],
+    "modules-left": ["hyprland/workspaces", "custom/capslock"],
     "modules-center": ["clock", "clock#time"],
     "modules-right": ["tray", "hyprland/language", "pulseaudio", "battery"],
-    "hyprland/language": {
-        "format-en": "EN",
-	"format-ru": "RU"
+    "custom/capslock": {
+        "exec": "~/.config/waybar/caps.sh",
+        "return-type": "plain",
+        "restart-interval": 0,
+        "tooltip": false
     },
     "clock": {
         "format": "{:%a, %d %b %Y}",
@@ -15,6 +17,13 @@
     "clock#time": {
         "format": "{:%H:%M}",
 	"tooltip": false
+    },
+    "tray": {
+        "spacing": 5
+    },
+    "hyprland/language": {
+        "format-en": "EN",
+	"format-ru": "RU"
     },
     "pulseaudio": {
         "format": "{volume}% {icon}",
@@ -30,7 +39,4 @@
         "format-alt": "{time}",
         "tooltip": false
     },
-    "tray": {
-        "spacing": 5
-    }
 }

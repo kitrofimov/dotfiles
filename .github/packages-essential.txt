@@ -1,5 +1,6 @@
 alacritty
 cliphist
+evtest
 ffmpegthumbnailer
 grim
 hyprland

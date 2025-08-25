@@ -3,9 +3,12 @@ cliphist
 evtest
 ffmpegthumbnailer
 grim
+hypridle
 hyprland
+hyprlock
 hyprpicker
 hyprpolkitagent
+hyprsunset
 imv
 mako
 nwg-look
@@ -23,5 +26,4 @@ thunar
 tumbler
 waybar
 wireplumber
-wlsunset
 xdg-desktop-portal-hyprland

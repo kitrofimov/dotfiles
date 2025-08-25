@@ -42,8 +42,7 @@ window#waybar {
 #custom-capslock {
     color: @background;
     background: @foreground;
-    /* font-weight: bold; */
     padding: 0 4px;
-    margin: 0 4px;
+    margin: 0 2px;
 }
 

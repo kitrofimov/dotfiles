@@ -37,6 +37,11 @@ yay -S --needed - < ~/.github/packages-essential-aur.txt
 
 Launch a Hyprland session, set a wallpaper using `Win + Shift + W` keybind and reboot. Enjoy!
 
+P.S: for the correct caps indication, the user should be in the `input` group. In other words, run this:
+```bash
+sudo usermod -aG input *your username*
+```
+
 # Fix time drift when dualbooting Windows
 See [this forum post](https://bbs.archlinux.org/viewtopic.php?id=274660).
 

@@ -26,6 +26,7 @@ ntfs-3g
 obsidian
 obs-studio
 python-pip
+qbittorrent
 reflector
 ripgrep
 smartmontools

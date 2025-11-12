@@ -56,3 +56,20 @@ Windows (Administrator Command Prompt):
 reg add "HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\TimeZoneInformation" /v RealTimeIsUniversal /d 1 /t REG_DWORD /f
 ```
 
+# Set Thunar as the main file manager
+
+```
+gio mime inode/directory thunar.desktop
+xdg-mime default thunar.desktop inode/directory
+```
+
+# Open text files from Thunar in `nvim` by default
+
+This includes no-extension files, `.txt` files and `.md` files:
+```
+xdg-mime default nvim.desktop text/plain
+xdg-mime default nvim.desktop inode/x-empty
+xdg-mime default nvim.desktop text/markdown
+xdg-mime default nvim.desktop text/x-markdown
+```
+

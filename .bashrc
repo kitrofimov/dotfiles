@@ -5,24 +5,19 @@ alias ls='ls --color=auto'
 alias ll='ls -l'
 alias la='ls -a'
 alias lla='ls -la'
-
 alias grep='grep --color=auto'
 
-# Get the table of contents of a manpage
-# https://askubuntu.com/questions/1196358/is-there-any-way-to-get-table-of-contents-of-a-man-page
-man-toc() {
-    if [ $# -eq 0 ]; then
-        echo "no arguments"
-	return 1
-    fi
-    zcat $(man -w "$1") | grep '^\.SH'
-}
-
-# See https://harfangk.github.io/2016/09/18/manage-dotfiles-with-a-git-bare-repository.html
+# https://harfangk.github.io/2016/09/18/manage-dotfiles-with-a-git-bare-repository.html
 alias dotfiles="/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME"
 
 export PS1="\[\e[38;5;245m\]\u\[\e[38;5;247m\]@\[\e[38;5;249m\]\h \[\e[38;5;254m\]\W \[\033[0m\]$ "
-
 export EDITOR=nvim
 
 . "$HOME/.cargo/env"
+
+# Use bash-completion, if available, and avoid double-sourcing
+[[ $PS1 &&
+  ! ${BASH_COMPLETION_VERSINFO:-} &&
+  -f /usr/share/bash-completion/bash_completion ]] &&
+    . /usr/share/bash-completion/bash_completion
+
